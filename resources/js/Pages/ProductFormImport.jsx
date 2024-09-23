@@ -20,7 +20,7 @@ export default function ProductFormImport({ auth }) {
         })
         .then(response => {
             if (response.ok) {
-                alert('Import process started successfully!');
+                alert('Import process started successfully! Go to Catalog Page');
                 setProductId(''); 
             } else {
                 alert('Failed to start import process.');
